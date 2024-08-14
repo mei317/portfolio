@@ -1,0 +1,49 @@
+.c-icon {
+  position: relative;
+}
+
+.c-icon::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Material Icons";
+  z-index: 2;
+  color: var(--color-gray-600);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.c-icon.-size-16 {
+  font-size: 1rem;
+}
+
+.c-icon.-size-24 {
+  font-size: 1.5rem;
+}
+
+.c-icon.-size-32 {
+  font-size: 2rem;
+}
+
+.c-icon.-size-48 {
+  font-size: 3rem;
+}
+
+.c-icon.-search::before {
+  content: "\e8b6";
+}
+
+.c-icon.-html::before {
+  content: "\eb7e";
+}
+
+.c-icon.-javascript::before {
+  content: "\eb7c";
+}
+
+.c-icon.-java::before {
+  content: "\e8b6";
+}

@@ -3,15 +3,73 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
-    <title>portfolio</title>
+    <title>top</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="/image/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&amp;display=swap" rel="stylesheet">
     <script src="/js/main.js"></script>
   </head>
   <body>
-    <h1 class="title">portfolio</h1>
+    <div class="l-wrapper p-flex -gap-16">
+      <section class="l-sidebar">
+        <div class="l-sidebar__image"></div>
+        <div class="l-sidebar__menu">
+          <ul class="p-sideMenu">
+            <li class="p-sideMenu__item -active">DashBoard</li>
+            <li class="p-sideMenu__item">Profile</li>
+            <li class="p-sideMenu__item">Skill</li>
+            <li class="p-sideMenu__item">SetUp</li>
+          </ul>
+        </div>
+      </section>
+      <section class="l-main">
+        <div class="p-main__header p-flex -align-center -flex-between">
+          <div class="c-input -search -size-16 -color-gray600">
+            <input type="text" placeholder="Search">
+          </div>
+          <button class="c-button -square" type="button"><span class="c-button__text">jp</span></button>
+        </div>
+        <div class="p-main__content u-hidden">
+          <h1 class="c-text -size-s u-mt-32">Dashboard</h1>
+        </div>
+        <div class="p-main__content u-hidden">
+          <h1 class="c-text -size-s u-mt-32">Profile</h1>
+        </div>
+        <div class="p-main__content">
+          <h1 class="c-text -size-s u-mt-32">Skill</h1>
+          <div class="p-section u-mt-32">
+            <ul class="p-section__list -side">
+              <li class="p-section__listMenu p-flex -flex-column -align-center -gap-16">
+                <button class="c-button -circle -size-m" type="button">
+                  <div class="c-icon -html -size-32"></div>
+                </button>
+                <p class="c-text">html css</p>
+              </li>
+              <li class="p-section__listMenu p-flex -flex-column -align-center -gap-16">
+                <button class="c-button -circle -size-m" type="button">
+                  <div class="c-icon -javascript -size-32"></div>
+                </button>
+                <p class="c-text">javascript</p>
+              </li>
+              <li class="p-section__listMenu p-flex -flex-column -align-center -gap-16">
+                <button class="c-button -circle -size-m" type="button">
+                  <div class="c-icon -java -size-32"></div>
+                </button>
+                <p class="c-text">java</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="p-main__content u-hidden">
+          <h1 class="c-text -size-s u-mt-32">SetUp</h1>
+        </div>
+      </section>
+    </div>
   </body>
 </html>

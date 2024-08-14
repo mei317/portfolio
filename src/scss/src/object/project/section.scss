@@ -1,0 +1,15 @@
+@import "../../foundation/function.scss";
+
+.p-section {
+  &__list {
+    &.-side {
+      display: flex;
+      align-items: center;
+      gap: rem(16);
+    }
+  }
+
+  &__listMenu {
+    flex: 1;
+  }
+}

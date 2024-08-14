@@ -1,0 +1,30 @@
+@import "../foundation/function.scss";
+
+.l-sidebar {
+  flex-basis: 20%;
+  min-height: 100vh;
+  padding: rem(72) 0;
+  border-radius: rem(50);
+  box-shadow: inset rem(20) rem(20) rem(38) #d2d0dd, inset rem(-20) rem(-20) rem(38) #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  -webkit-border-radius: rem(50);
+  -moz-border-radius: rem(50);
+  -ms-border-radius: rem(50);
+  -o-border-radius: rem(50);
+
+  &__image {
+    height: rem(160);
+    width: rem(160);
+    margin-inline: auto;
+    margin-bottom: rem(32);
+    border-radius: 50%;
+    box-shadow: rem(12) rem(12) rem(26) #cbc6d2, rem(-12) rem(-12) rem(26) #fff;
+    cursor: pointer;
+  }
+
+  &__menu {
+    min-width: 90%;
+  }
+}

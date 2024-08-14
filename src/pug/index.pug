@@ -1,7 +1,44 @@
 extends include/_base
 
 block title
-  title portfolio
+  title top
 
 block append body
-  h1.title portfolio
+
+  .l-wrapper.p-flex.-gap-16
+    section.l-sidebar
+      .l-sidebar__image
+      .l-sidebar__menu
+        ul.p-sideMenu
+          li.p-sideMenu__item.-active DashBoard
+          li.p-sideMenu__item Profile
+          li.p-sideMenu__item Skill
+          li.p-sideMenu__item SetUp
+    section.l-main
+      .p-main__header.p-flex.-align-center.-flex-between
+        .c-input.-search.-size-16.-color-gray600
+          input(type="text" placeholder="Search")
+        button(type="button").c-button.-square
+          span.c-button__text jp
+      .p-main__content.u-hidden
+        h1.c-text.-size-s.u-mt-32 Dashboard
+      .p-main__content.u-hidden
+        h1.c-text.-size-s.u-mt-32 Profile
+      .p-main__content
+        h1.c-text.-size-s.u-mt-32 Skill
+        .p-section.u-mt-32
+          ul.p-section__list.-side
+            li.p-section__listMenu.p-flex.-flex-column.-align-center.-gap-16
+              button(type="button").c-button.-circle.-size-m
+                .c-icon.-html.-size-32
+              p.c-text html css
+            li.p-section__listMenu.p-flex.-flex-column.-align-center.-gap-16
+              button(type="button").c-button.-circle.-size-m
+                .c-icon.-javascript.-size-32
+              p.c-text javascript
+            li.p-section__listMenu.p-flex.-flex-column.-align-center.-gap-16
+              button(type="button").c-button.-circle.-size-m
+                .c-icon.-java.-size-32
+              p.c-text java
+      .p-main__content.u-hidden
+        h1.c-text.-size-s.u-mt-32 SetUp

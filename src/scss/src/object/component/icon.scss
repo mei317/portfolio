@@ -1,0 +1,59 @@
+@import "../../foundation/function.scss";
+
+.c-icon {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Material Icons";
+    z-index: 2;
+    color: var(--color-gray-600);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+
+  &.-size-16 {
+    font-size: rem(16);
+  }
+
+  &.-size-24 {
+    font-size: rem(24);
+  }
+
+  &.-size-32 {
+    font-size: rem(32);
+  }
+
+  &.-size-48 {
+    font-size: rem(48);
+  }
+
+  &.-search {
+    &::before {
+      content: "\e8b6";
+    }
+  }
+
+  &.-html {
+    &::before {
+      content: "\eb7e";
+    }
+  }
+
+  &.-javascript {
+    &::before {
+      content: "\eb7c";
+    }
+  }
+
+  &.-java {
+    &::before {
+      content: "\e8b6";
+    }
+  }
+}

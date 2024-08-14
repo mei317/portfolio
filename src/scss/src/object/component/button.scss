@@ -1,0 +1,52 @@
+@import "../../foundation/function.scss";
+
+.c-button {
+  position: relative;
+  min-width: rem(40);
+  min-height: rem(40);
+  background: #e5e3ed;
+  box-shadow: rem(10) rem(10) rem(20) #cbc6d2, rem(-10) rem(-10) rem(20) #fff;
+  -webkit-border-radius: rem(8);
+  -moz-border-radius: rem(8);
+  -ms-border-radius: rem(8);
+  -o-border-radius: rem(8);
+
+  &.-square {
+    border-radius: rem(8);
+  }
+
+  &.-circle {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  &.-size-s {
+    min-width: rem(40);
+    min-height: rem(40);
+  }
+
+  &.-size-m {
+    min-width: rem(80);
+    min-height: rem(80);
+  }
+
+  &.-size-l {
+    min-width: rem(100);
+    min-height: rem(100);
+  }
+
+  &__text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--color-gray-600);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+}

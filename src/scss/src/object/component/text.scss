@@ -1,0 +1,22 @@
+@import "../../foundation/function.scss";
+
+.c-text {
+  color: var(--color-gray-600);
+  letter-spacing: rem(0.8);
+
+  &.-size-xs {
+    font-size: rem(8);
+  }
+
+  &.-size-s {
+    font-size: rem(16);
+  }
+
+  &.-size-m {
+    font-size: rem(24);
+  }
+
+  &.-size-l {
+    font-size: rem(32);
+  }
+}

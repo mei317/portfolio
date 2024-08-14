@@ -1,0 +1,20 @@
+.c-text {
+  color: var(--color-gray-600);
+  letter-spacing: 0.05rem;
+}
+
+.c-text.-size-xs {
+  font-size: 0.5rem;
+}
+
+.c-text.-size-s {
+  font-size: 1rem;
+}
+
+.c-text.-size-m {
+  font-size: 1.5rem;
+}
+
+.c-text.-size-l {
+  font-size: 2rem;
+}

@@ -1,0 +1,19 @@
+@import "../../foundation/function.scss";
+
+.p-sideMenu {
+  &__item {
+    min-height: rem(32);
+    padding: rem(16) rem(20);
+    font-weight: 600;
+    cursor: pointer;
+
+    &.-active {
+      border-radius: rem(10) rem(0) rem(0) rem(10);
+      box-shadow: inset rem(15) rem(15) rem(30) #bebcc5, inset rem(-15) rem(-15) rem(30) #fff;
+      -webkit-border-radius: rem(10) rem(0) rem(0) rem(10);
+      -moz-border-radius: rem(10) rem(0) rem(0) rem(10);
+      -ms-border-radius: rem(10) rem(0) rem(0) rem(10);
+      -o-border-radius: rem(10) rem(0) rem(0) rem(10);
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@import "../../foundation/function.scss";
+
+.p-flex {
+  display: flex;
+
+  &.-flex-center {
+    justify-content: center;
+  }
+
+  &.-flex-between {
+    justify-content: space-between;
+  }
+
+  &.-align-center {
+    align-items: center;
+  }
+
+  &.-flex-column {
+    flex-direction: column;
+  }
+
+  &.-gap-16 {
+    gap: rem(16);
+  }
+
+  &.-gap-24 {
+    gap: rem(24);
+  }
+}

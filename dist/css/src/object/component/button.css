@@ -1,0 +1,51 @@
+.c-button {
+  position: relative;
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  background: #e5e3ed;
+  -webkit-box-shadow: 0.625rem 0.625rem 1.25rem #cbc6d2, -0.625rem -0.625rem 1.25rem #fff;
+  box-shadow: 0.625rem 0.625rem 1.25rem #cbc6d2, -0.625rem -0.625rem 1.25rem #fff;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.c-button.-square {
+  border-radius: 0.5rem;
+}
+
+.c-button.-circle {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.c-button.-size-s {
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+}
+
+.c-button.-size-m {
+  min-width: 5rem;
+  min-height: 5rem;
+}
+
+.c-button.-size-l {
+  min-width: 6.25rem;
+  min-height: 6.25rem;
+}
+
+.c-button__text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--color-gray-600);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}

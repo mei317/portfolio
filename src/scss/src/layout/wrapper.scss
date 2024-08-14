@@ -1,0 +1,12 @@
+@import "../foundation/function.scss";
+
+.l-wrapper {
+  padding: rem(16) rem(40);
+  border-radius: rem(0);
+  background: #e5e3ed;
+  box-shadow: inset rem(12) rem(12) rem(26) #d2d0dd, inset rem(-12) rem(-12) rem(26) #f0eef9;
+  -webkit-border-radius: rem(0);
+  -moz-border-radius: rem(0);
+  -ms-border-radius: rem(0);
+  -o-border-radius: rem(0);
+}

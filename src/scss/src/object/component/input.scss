@@ -1,0 +1,91 @@
+@import "../../foundation/function.scss";
+
+.c-input {
+  position: relative;
+
+  input {
+    position: relative;
+    max-height: rem(32);
+    padding: rem(8) rem(16) rem(8) rem(42);
+    box-sizing: border-box;
+    border: none;
+    border-radius: rem(32);
+    background: #e5e3ed;
+    box-shadow: inset rem(12) rem(12) rem(12) #d0cfd8, inset rem(-12) rem(-12) rem(12) #faf7ff;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    font-size: var(--font-size-s);
+    letter-spacing: rem(-0.4);
+    color: var(--color-gray-600);
+    -webkit-border-radius: rem(32);
+    -moz-border-radius: rem(32);
+    -ms-border-radius: rem(32);
+    -o-border-radius: rem(32);
+
+    &::placeholder {
+      position: absolute;
+      top: rem(8);
+      left: rem(40);
+      font-family: "Kiwi Maru", serif;
+      font-weight: 400;
+      font-style: normal;
+      line-height: rem(-2);
+      letter-spacing: rem(0.4);
+      color: var(--color-gray-600);
+      font-size: var(--font-size-s);
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &::before {
+    position: absolute;
+    top: 56.5%;
+    left: rem(8);
+    transform: translateY(-50%);
+    font-family: "Material Icons";
+    z-index: 2;
+  }
+
+  &.-search {
+    &::before {
+      content: "\e8b6";
+    }
+  }
+
+  &.-size-16 {
+    font-size: rem(16);
+  }
+
+  &.-size-24 {
+    font-size: rem(24);
+  }
+
+  &.-size-32 {
+    font-size: rem(32);
+  }
+
+  &.-size-48 {
+    font-size: rem(48);
+  }
+
+  /* 黒 */
+  &.-color-dark {
+    color: rgba(0, 0, 0, 0.54);
+  }
+
+  &.-color-gray600 {
+    color: var(--color-gray-600);
+  }
+
+  /* 白 */
+  &.-color-light {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  &.-color-gray300 {
+    color: var(--color-gray-300);
+  }
+}
