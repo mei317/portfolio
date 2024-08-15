@@ -1,7 +1,7 @@
 @import "../../foundation/function.scss";
+@import "../../foundation/mixin.scss";
 
 .c-text {
-  color: var(--color-gray-600);
   letter-spacing: rem(0.8);
 
   &.-size-xs {
@@ -19,4 +19,5 @@
   &.-size-l {
     font-size: rem(32);
   }
+  @include baseFont;
 }

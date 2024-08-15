@@ -1,6 +1,11 @@
 @import "../../foundation/function.scss";
 
 .p-section {
+  &__header {
+    max-width: 100%;
+    height: rem(160);
+  }
+
   &__list {
     &.-side {
       display: flex;

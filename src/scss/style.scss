@@ -1,4 +1,5 @@
 @import "src/foundation/base.css";
+@import "src/foundation/mixin.css";
 @import "src/foundation/reset.css";
 @import "src/foundation/root.css";
 
@@ -13,6 +14,7 @@
 
 @import "src/object/component/button.css";
 @import "src/object/component/icon.css";
+@import "src/object/component/img.css";
 @import "src/object/component/input.css";
 @import "src/object/component/text.css";
 
