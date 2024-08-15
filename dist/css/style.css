@@ -1,4 +1,5 @@
 @import url(src/foundation/base.css);
+@import url(src/foundation/mixin.css);
 @import url(src/foundation/reset.css);
 @import url(src/foundation/root.css);
 @import url(src/layout/wrapper.css);
