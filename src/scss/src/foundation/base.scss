@@ -1,8 +1,10 @@
 @import "function.scss";
+@import "mixin.scss";
 
 body {
   margin: 0;
   background-color: var(--bg-color);
   user-select: none;
   color: var(--color-gray-800);
+  @include baseFont;
 }

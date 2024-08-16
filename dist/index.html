@@ -1,76 +1,113 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
     <title>top</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="shortcut icon" href="/image/favicon.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&amp;display=swap" rel="stylesheet">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="/image/favicon.ico" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&amp;display=swap" rel="stylesheet" />
     <script src="/js/main.js"></script>
   </head>
   <body>
     <div class="l-wrapper p-flex -gap-16">
       <section class="l-sidebar">
-        <div class="l-sidebar__image"></div>
+        <div class="c-circle -size-160 -pointer u-mb-32 u-m-inline-auto"></div>
         <div class="l-sidebar__menu">
           <ul class="p-sideMenu">
-            <li class="p-sideMenu__item -active">DashBoard</li>
             <li class="p-sideMenu__item">Profile</li>
-            <li class="p-sideMenu__item">Skill</li>
-            <li class="p-sideMenu__item">SetUp</li>
+            <li class="p-sideMenu__item -active">Skill</li>
+            <li class="p-sideMenu__item">Feature</li>
+            <li class="p-sideMenu__item">DashBoard</li>
           </ul>
         </div>
       </section>
       <section class="l-main">
         <div class="p-main__header p-flex -align-center -flex-between">
           <div class="c-input -search -size-16 -color-gray600">
-            <input type="text" placeholder="Search">
+            <input type="text" placeholder="Search" />
           </div>
-          <button class="c-button -square" type="button"><span class="c-button__text">jp</span></button>
-        </div>
-        <div class="p-main__content u-hidden">
-          <h1 class="c-text -size-s u-mt-32">Dashboard</h1>
+          <button class="c-button -square" type="button"><span>jp</span></button>
         </div>
         <div class="p-main__content">
           <h1 class="c-text -size-l u-mt-32">Profile</h1>
           <div class="p-section u-mt-32">
-            <div class="p-section__header"><img class="c-img--keyVisual" src="../image/pink.webp" alt="ピンクのキービジュアル"></div>
+            <div class="p-section__header"><img class="c-img--keyVisual" src="../image/pink.webp" alt="ピンクのキービジュアル" /></div>
           </div>
         </div>
         <div class="p-main__content u-hidden">
-          <h1 class="c-text -size-s u-mt-32">Skill</h1>
-          <div class="p-section u-mt-32">
-            <ul class="p-section__list -side">
-              <li class="p-section__listMenu p-flex -flex-column -align-center -gap-16">
-                <button class="c-button -circle -size-m" type="button">
-                  <div class="c-icon -html -size-32"></div>
-                </button>
-                <p class="c-text">html css</p>
-              </li>
-              <li class="p-section__listMenu p-flex -flex-column -align-center -gap-16">
-                <button class="c-button -circle -size-m" type="button">
-                  <div class="c-icon -javascript -size-32"></div>
-                </button>
-                <p class="c-text">javascript</p>
-              </li>
-              <li class="p-section__listMenu p-flex -flex-column -align-center -gap-16">
-                <button class="c-button -circle -size-m" type="button">
-                  <div class="c-icon -java -size-32"></div>
-                </button>
-                <p class="c-text">java</p>
-              </li>
-            </ul>
+          <h1 class="c-text -size-s u-mt-32">Profile</h1>
+        </div>
+        <div class="p-main__content">
+          <h1 class="c-text -size-l u-mt-32">Skill</h1>
+          <div class="p-main__content--container">
+            <h2 class="c-text">Language</h2>
+            <div class="p-section -center">
+              <div class="p-section__contents">
+                <div class="c-circle -size-320 u-position--relative -color">
+                  <div class="c-circle -size-200 u-position--center"></div>
+                  <div class="c-text -size-l u-position--center">75%</div>
+                </div>
+              </div>
+              <div class="p-section__contents p-flex u-mt-32 -gap-96 -flex-center">
+                <div class="p-parts__item -center">
+                  <div class="c-rectangle u-position--relative -color -orange -height-165"></div>
+                  <div class="c-text -size-xs u-mt-16">HTML/Pug</div>
+                  <div class="c-text -size-xs -bold u-mt-16">90%</div>
+                </div>
+                <div class="p-parts__item -center">
+                  <div class="c-rectangle u-position--relative -color -blue -height-165"></div>
+                  <div class="c-text -size-xs u-mt-16">SCSS/CSS</div>
+                  <div class="c-text -size-xs -bold u-mt-16">90%</div>
+                </div>
+                <div class="p-parts__item -center">
+                  <div class="c-rectangle u-position--relative -color -pink -height-150"></div>
+                  <div class="c-text -size-xs u-mt-16">Javascript</div>
+                  <div class="c-text -size-xs -bold u-mt-16">80%</div>
+                </div>
+                <div class="p-parts__item -center">
+                  <div class="c-rectangle u-position--relative -color -violet -height-40"></div>
+                  <div class="c-text -size-xs u-mt-16">Java</div>
+                  <div class="c-text -size-xs -bold u-mt-16">25%</div>
+                </div>
+              </div>
+            </div>
+            <h2 class="c-text u-mt-80">Production</h2>
+            <div class="p-section u-mt-32">
+              <ul class="p-section__list -side">
+                <li class="p-section__listMenu p-flex -flex-column -align-center -gap-16">
+                  <a class="c-button -circle -size-m u-position--relative" href="https://mei317.github.io/portfolio_01/" target="_blank">
+                    <div class="p-section__listImg u-position--center"><img class="c-img" src="../image/YuMeCAFE.png" /></div
+                  ></a>
+                  <p class="c-text">YuMeCAFE</p>
+                </li>
+                <li class="p-section__listMenu p-flex -flex-column -align-center -gap-16">
+                  <a class="c-button -circle -size-m u-position--relative" href="https://mei317.github.io/portfolio_03/" target="_blank">
+                    <div class="p-section__listImg u-position--center"><img class="c-img" src="../image/WinterFestival.png" /></div
+                  ></a>
+                  <p class="c-text">Comedy Winter Festival</p>
+                </li>
+                <li class="p-section__listMenu p-flex -flex-column -align-center -gap-16">
+                  <a class="c-button -circle -size-m u-position--relative" href="https://mei317.github.io/portfolio_02/public/" target="_blank">
+                    <div class="p-section__listImg u-position--center"><img class="c-img" src="../image/Komachi.png" /></div
+                  ></a>
+                  <p class="c-text -center">Komachi's website</p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="p-main__content u-hidden">
-          <h1 class="c-text -size-s u-mt-32">SetUp</h1>
+          <h1 class="c-text -size-s u-mt-32">Feature</h1>
+        </div>
+        <div class="p-main__content u-hidden">
+          <h1 class="c-text -size-s u-mt-32">Dashboard</h1>
         </div>
       </section>
     </div>

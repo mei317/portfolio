@@ -36,3 +36,7 @@
 .p-flex.-gap-24 {
   gap: 1.5rem;
 }
+
+.p-flex.-gap-96 {
+  gap: 6rem;
+}

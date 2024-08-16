@@ -1,0 +1,9 @@
+@import "../../foundation/function.scss";
+
+.p-main {
+  &__content {
+    &--container {
+      padding: rem(32);
+    }
+  }
+}
