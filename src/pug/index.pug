@@ -7,13 +7,13 @@ block append body
 
   .l-wrapper.p-flex.-gap-16
     section.l-sidebar
-      .l-sidebar__image
+      .c-circle.-size-160.-pointer.u-mb-32.u-m-inline-auto
       .l-sidebar__menu
         ul.p-sideMenu
-          li.p-sideMenu__item.-active DashBoard
           li.p-sideMenu__item Profile
-          li.p-sideMenu__item Skill
-          li.p-sideMenu__item SetUp
+          li.p-sideMenu__item.-active Skill
+          li.p-sideMenu__item Feature
+          li.p-sideMenu__item DashBoard
     section.l-main
       .p-main__header.p-flex.-align-center.-flex-between
         .c-input.-search.-size-16.-color-gray600
@@ -21,24 +21,56 @@ block append body
         button(type="button").c-button.-square
           span.c-button__text jp
       .p-main__content.u-hidden
-        h1.c-text.-size-s.u-mt-32 Dashboard
-      .p-main__content.u-hidden
         h1.c-text.-size-s.u-mt-32 Profile
+
       .p-main__content
-        h1.c-text.-size-s.u-mt-32 Skill
-        .p-section.u-mt-32
-          ul.p-section__list.-side
-            li.p-section__listMenu.p-flex.-flex-column.-align-center.-gap-16
-              button(type="button").c-button.-circle.-size-m
-                .c-icon.-html.-size-32
-              p.c-text html css
-            li.p-section__listMenu.p-flex.-flex-column.-align-center.-gap-16
-              button(type="button").c-button.-circle.-size-m
-                .c-icon.-javascript.-size-32
-              p.c-text javascript
-            li.p-section__listMenu.p-flex.-flex-column.-align-center.-gap-16
-              button(type="button").c-button.-circle.-size-m
-                .c-icon.-java.-size-32
-              p.c-text java
+        h1.c-text.-size-l.u-mt-32 Skill
+        .p-main__content--container
+          h2.c-text Language
+          .p-section.-center
+            .p-section__contents
+              .c-circle.-size-320.u-position--relative.-color
+                .c-circle.-size-200.u-position--center
+                .c-text.-size-l.u-position--center 75%
+            .p-section__contents.p-flex.u-mt-32.-gap-96.-flex-center
+              .p-parts__item.-center
+                .c-rectangle.u-position--relative.-color.-orange.-height-165
+                .c-text.-size-xs.u-mt-16 HTML/Pug
+                .c-text.-size-xs.-bold.u-mt-16 90%
+              .p-parts__item.-center
+                .c-rectangle.u-position--relative.-color.-blue.-height-165
+                .c-text.-size-xs.u-mt-16 SCSS/CSS
+                .c-text.-size-xs.-bold.u-mt-16 90%
+              .p-parts__item.-center
+                .c-rectangle.u-position--relative.-color.-pink.-height-150
+                .c-text.-size-xs.u-mt-16 Javascript
+                .c-text.-size-xs.-bold.u-mt-16 80%
+              .p-parts__item.-center
+                .c-rectangle.u-position--relative.-color.-violet.-height-40
+                .c-text.-size-xs.u-mt-16 Java
+                .c-text.-size-xs.-bold.u-mt-16 25%
+          h2.c-text.u-mt-80 Production
+          .p-section.u-mt-32
+            ul.p-section__list.-side
+              li.p-section__listMenu.p-flex.-flex-column.-align-center.-gap-16
+                a(href="https://mei317.github.io/portfolio_01/" target="_blank").c-button.-circle.-size-m.u-position--relative
+                  .p-section__listImg.u-position--center
+                    img(src="../image/YuMeCAFE.png").c-img
+
+                p.c-text YuMeCAFE
+              li.p-section__listMenu.p-flex.-flex-column.-align-center.-gap-16
+                a(href="https://mei317.github.io/portfolio_03/" target="_blank").c-button.-circle.-size-m.u-position--relative
+                  .p-section__listImg.u-position--center
+                    img(src="../image/WinterFestival.png").c-img
+                p.c-text Comedy Winter Festival
+              li.p-section__listMenu.p-flex.-flex-column.-align-center.-gap-16
+                a(href="https://mei317.github.io/portfolio_02/public/" target="_blank").c-button.-circle.-size-m.u-position--relative
+                  .p-section__listImg.u-position--center
+                    img(src="../image/Komachi.png").c-img
+                p.c-text.-center Komachi's website
+
       .p-main__content.u-hidden
-        h1.c-text.-size-s.u-mt-32 SetUp
+        h1.c-text.-size-s.u-mt-32 Feature
+        
+      .p-main__content.u-hidden
+        h1.c-text.-size-s.u-mt-32 Dashboard

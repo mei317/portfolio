@@ -1,0 +1,85 @@
+.c-rectangle {
+  min-width: 4rem;
+  min-height: 12rem;
+  padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 2rem;
+  background: #e5e3ed;
+  -webkit-box-shadow: inset 0.75rem 0.75rem 0.75rem #d0cfd8, inset -0.75rem -0.75rem 0.75rem #faf7ff;
+  box-shadow: inset 0.75rem 0.75rem 0.75rem #d0cfd8, inset -0.75rem -0.75rem 0.75rem #faf7ff;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.c-rectangle.-color::after {
+  content: "";
+  position: absolute;
+  bottom: 0.25rem;
+  left: 51%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  min-width: 3rem;
+  padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+}
+
+.c-rectangle.-color.-pink::after {
+  background-color: #edd7ec;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#edd7ec), color-stop(10%, #f98ead), color-stop(90%, #e981da), to(#eec8e8));
+  background-image: linear-gradient(180deg, #edd7ec 0%, #f98ead 10%, #e981da 90%, #eec8e8 100%);
+}
+
+.c-rectangle.-color.-blue::after {
+  background-color: #c7efff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c7efff), color-stop(10%, #6fb5f3), color-stop(90%, #67ccd7), to(#baedf1));
+  background-image: linear-gradient(180deg, #c7efff 0%, #6fb5f3 10%, #67ccd7 90%, #baedf1 100%);
+}
+
+.c-rectangle.-color.-orange::after {
+  background-color: #e5e1c5;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e5e1c5), color-stop(10%, #facb74), color-stop(90%, #e9a88d), to(#efd7c5));
+  background-image: linear-gradient(180deg, #e5e1c5 0%, #facb74 10%, #e9a88d 90%, #efd7c5 100%);
+}
+
+.c-rectangle.-color.-yellow::after {
+  background: radial-gradient(at 29.9975% 63.06996%, #ffec8b 0%, rgba(255, 236, 139, 0) 100%), radial-gradient(at 29.36083% 27.92408%, white 0%, rgba(255, 255, 255, 0) 100%), radial-gradient(at 97.46264% 29.28332%, #f7df65 0%, rgba(247, 223, 101, 0) 100%);
+}
+
+.c-rectangle.-color.-violet::after {
+  background-color: #bcbbf5;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#bcbbf5), color-stop(10%, #816fce), color-stop(90%, #757fe3), to(#b5bfed));
+  background-image: linear-gradient(180deg, #bcbbf5 0%, #816fce 10%, #757fe3 90%, #b5bfed 100%);
+}
+
+.c-rectangle.-color.-height-165::after {
+  min-height: 10.3125rem;
+  border-radius: 4.5rem;
+  -webkit-border-radius: 4.5rem;
+  -moz-border-radius: 4.5rem;
+  -ms-border-radius: 4.5rem;
+  -o-border-radius: 4.5rem;
+}
+
+.c-rectangle.-color.-height-150::after {
+  min-height: 9.375rem;
+  border-radius: 4.5rem;
+  -webkit-border-radius: 4.5rem;
+  -moz-border-radius: 4.5rem;
+  -ms-border-radius: 4.5rem;
+  -o-border-radius: 4.5rem;
+}
+
+.c-rectangle.-color.-height-40::after {
+  min-height: 2.5rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}

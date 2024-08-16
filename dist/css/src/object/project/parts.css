@@ -1,4 +1,4 @@
-.p-section.-center {
+.p-parts__item.-center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,25 +12,4 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.p-section__list.-side {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-.p-section__listMenu {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.p-section__listImg {
-  width: 90%;
-  height: 90%;
 }

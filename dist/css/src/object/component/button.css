@@ -1,5 +1,4 @@
 .c-button {
-  position: relative;
   min-width: 2.5rem;
   min-height: 2.5rem;
   background: #e5e3ed;
@@ -39,13 +38,5 @@
 }
 
 .c-button__text {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
   color: var(--color-gray-600);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
 }

@@ -1,0 +1,35 @@
+@import "../../foundation/function.scss";
+
+.c-circle {
+  border-radius: 50%;
+  box-shadow: rem(12) rem(12) rem(26) #cbc6d2, rem(-12) rem(-12) rem(26) #fff;
+
+  &.-color {
+    &::after {
+    }
+  }
+
+  &.-pointer {
+    cursor: pointer;
+  }
+
+  &.-size-160 {
+    height: rem(160);
+    width: rem(160);
+  }
+
+  &.-size-200 {
+    height: rem(200);
+    width: rem(200);
+  }
+
+  &.-size-240 {
+    height: rem(240);
+    width: rem(240);
+  }
+
+  &.-size-320 {
+    height: rem(320);
+    width: rem(320);
+  }
+}

@@ -1,0 +1,29 @@
+.c-circle {
+  border-radius: 50%;
+  -webkit-box-shadow: 0.75rem 0.75rem 1.625rem #cbc6d2, -0.75rem -0.75rem 1.625rem #fff;
+  box-shadow: 0.75rem 0.75rem 1.625rem #cbc6d2, -0.75rem -0.75rem 1.625rem #fff;
+}
+
+.c-circle.-pointer {
+  cursor: pointer;
+}
+
+.c-circle.-size-160 {
+  height: 10rem;
+  width: 10rem;
+}
+
+.c-circle.-size-200 {
+  height: 12.5rem;
+  width: 12.5rem;
+}
+
+.c-circle.-size-240 {
+  height: 15rem;
+  width: 15rem;
+}
+
+.c-circle.-size-320 {
+  height: 20rem;
+  width: 20rem;
+}

@@ -2,11 +2,11 @@
   min-height: 2rem;
   padding: 1rem 1.25rem;
   cursor: pointer;
+  color: var(--color-gray-600);
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 100;
   font-style: normal;
-  color: var(--color-gray-800);
 }
 
 .p-sideMenu__item.-active {
@@ -17,4 +17,5 @@
   -moz-border-radius: 0.625rem 0rem 0rem 0.625rem;
   -ms-border-radius: 0.625rem 0rem 0rem 0.625rem;
   -o-border-radius: 0.625rem 0rem 0rem 0.625rem;
+  color: var(--color-gray-800);
 }
