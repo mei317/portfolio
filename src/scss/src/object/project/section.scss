@@ -1,6 +1,13 @@
 @import "../../foundation/function.scss";
 
 .p-section {
+  &.-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__list {
     &.-side {
       display: flex;
@@ -11,5 +18,10 @@
 
   &__listMenu {
     flex: 1;
+  }
+
+  &__listImg {
+    width: 90%;
+    height: 90%;
   }
 }

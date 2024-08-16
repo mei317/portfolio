@@ -1,11 +1,11 @@
 @import "../../foundation/function.scss";
+@import "../../foundation/mixin.scss";
 
 .c-text {
-  color: var(--color-gray-600);
   letter-spacing: rem(0.8);
 
   &.-size-xs {
-    font-size: rem(8);
+    font-size: rem(12);
   }
 
   &.-size-s {
@@ -19,4 +19,18 @@
   &.-size-l {
     font-size: rem(32);
   }
+
+  &.-size-xl {
+    font-size: rem(64);
+  }
+
+  &.-size-xxl {
+    font-size: rem(80);
+  }
+
+  &.-bold {
+    font-weight: 600;
+  }
+
+  @include baseFont;
 }

@@ -1,10 +1,13 @@
 .c-text {
-  color: var(--color-gray-600);
   letter-spacing: 0.05rem;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .c-text.-size-xs {
-  font-size: 0.5rem;
+  font-size: 0.75rem;
 }
 
 .c-text.-size-s {
@@ -17,4 +20,16 @@
 
 .c-text.-size-l {
   font-size: 2rem;
+}
+
+.c-text.-size-xl {
+  font-size: 4rem;
+}
+
+.c-text.-size-xxl {
+  font-size: 5rem;
+}
+
+.c-text.-bold {
+  font-weight: 600;
 }

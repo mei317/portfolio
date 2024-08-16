@@ -1,0 +1,12 @@
+@import "../../foundation/function.scss";
+
+.p-parts {
+  &__item {
+    &.-center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
